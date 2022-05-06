@@ -51,7 +51,8 @@
             <q-td :props="props" >
               <div class="row">
                 <div class="col-12">
-                  <q-input dense autogrow outlined type="textarea" :model-value="props.row.user2.unit.nombre" />
+<!--                  <q-input dense autogrow outlined type="textarea" :model-value="props.row.user2.unit.nombre" />-->
+                  {{ props.row.user2.unit.nombre }}
                 </div>
               </div>
             </q-td>
@@ -60,7 +61,8 @@
             <q-td :props="props" >
               <div class="row">
                 <div class="col-12">
-                  <q-input dense autogrow outlined type="textarea" :model-value="props.row.accion" />
+<!--                  <q-input dense autogrow outlined type="textarea" :model-value="props.row.accion" />-->
+                  {{props.row.accion}} {{props.row.archivo}}
                 </div>
               </div>
             </q-td>
